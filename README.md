@@ -13,5 +13,6 @@
 - [Programming Basics](./docs/learning-phase-2/README.md)
 
 ### #3 2025/11/15 Learning Phase 3
+- [Using Claude Code](./docs/learning-phase-3/01-AI-setup.md)
 
 ### #4 2025/11/29 Learning Phase 4
