@@ -72,19 +72,19 @@ export default function MyPetsPage() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900">My Pets</h1>
-           <div className="flex gap-2">
-              <Link href="/my-pets/generate">
-                <Button variant="outline">
-                  <Sparkles className="mr-2 h-4 w-4" />
-                  子供を生成
-                </Button>
-              </Link>
-              <Link href="/my-pets/new">
-                <Button>
-                  <Plus className="mr-2 h-4 w-4" />
-                  Add New Pet
-                </Button>
-              </Link>
+          <div className="flex gap-2">
+            <Link href="/my-pets/generate">
+              <Button variant="outline">
+                <Sparkles className="mr-2 h-4 w-4" />
+                子供を生成
+              </Button>
+            </Link>
+            <Link href="/my-pets/new">
+              <Button>
+                <Plus className="mr-2 h-4 w-4" />
+                Add New Pet
+              </Button>
+            </Link>
           </div>
         </div>
 
