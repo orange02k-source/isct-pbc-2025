@@ -174,6 +174,7 @@ export default function NewPetPage() {
                   value={formData.breed}
                   onChange={(e) => setFormData({ ...formData, breed: e.target.value })}
                 />
+                {/* // branchです */}
               </div>
               {identifying && (
                 <p className="text-sm text-blue-600">AIが品種を識別中...</p>
